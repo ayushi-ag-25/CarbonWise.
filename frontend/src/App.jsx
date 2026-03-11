@@ -10,6 +10,7 @@ import Calculator  from './pages/Calculator';
 import TheReality  from './pages/TheReality';
 import Community   from './pages/Community';
 import Insights    from './pages/Insights';
+import About       from './pages/About';
 import './styles/globals.css';
 
 function ScrollToTop() {
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/the-reality" element={<TheReality />} />
           <Route path="/community"   element={<Community />} />
           <Route path="/insights"    element={<Insights />} />
+          <Route path="/about"       element={<About />} />
         </Routes>
       </Layout>
     </BrowserRouter>
